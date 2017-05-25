@@ -33,20 +33,22 @@
 	border: 15px solid transparent;
 }
 .dg-wrapper a.dg-transition{
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	-ms-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
 }
 .dg-wrapper a img{
 	display: block;
 	/*padding: 41px 0px 0px 1px;*/
 	opacity: 0.3;
-	-webkit-transition: opacity 0.2s ease-out 0s;
-	-moz-transition: opacity 0.2s ease-out 0s;
-	-o-transition: opacity 0.2s ease-out 0s;
-	transition: opacity 0.2s ease-out 0s;
+}
+.dg-wrapper a.dg-transition img{
+	/*-webkit-transition: opacity 0.2s ease-out 0.1s;*/
+	-moz-transition: opacity 0.3s ease-out 0s;
+	/*-o-transition: opacity 0.2s ease-out 0.1s;
+	transition: opacity 0.2s ease-out 0.1s;*/
 }
 .dg-wrapper a div{
 	font-style: italic;

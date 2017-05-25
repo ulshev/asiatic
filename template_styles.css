@@ -537,6 +537,12 @@ a.button:active {
   opacity: 0.8;
 }
 
+#inner #header {
+  background: #27437b url(images/header_bg.jpg) center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 @media screen and (max-width: 1300px) {
   #header .in {
     padding: 20px 20px;
@@ -565,7 +571,7 @@ a.button:active {
     width: 60px;
     float: right;
     position: relative;
-    height: 50px;
+    height: 40px;
   }
   #header nav .menu_button, #header nav .menu_close {
     width: 40px;
@@ -595,7 +601,7 @@ a.button:active {
     display: none;
   }
   #header nav {
-    margin: 10px -20px 10px 20px;
+    margin: 10px -20px 1px 20px;
     padding: 0;
     font-size: 18px;
     line-height: 130%;
@@ -633,11 +639,12 @@ a.button:active {
     line-height: 130%;
   }
   #header nav {
-    margin: 4px -20px 10px 20px;
+    margin: 4px -20px 1px 20px;
     width: 50px;
     height: 50px;
     font-size: 15px;
     line-height: 130%;
+    height: 30px;
   }
   #header nav .menu_button, #header nav .menu_close {
     width: 30px;
@@ -677,7 +684,7 @@ a.button:active {
     text-align: left;
   }
   #header nav {
-    margin: 4px -20px 10px 20px;
+    margin: 4px -20px 1px 20px;
     width: 50px;
     height: 50px;
     font-size: 15px;
@@ -1346,6 +1353,7 @@ footer #social a:hover {
   border-right: 1px solid #f4f4f4;
   background: #fff url(images/certificates_bg.png) left center no-repeat;
   background-size: auto 100%;
+  overflow: hidden;
 }
 #certificates .in {
   max-width: 1380px;
@@ -1450,6 +1458,42 @@ footer #social a:hover {
   }
 }
 /* end partners styles */
+/* start content styles */
+.bread_crumbs {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 130%;
+  font-family: "Raleway", "Roboto", Arial, Helvetica, sans-serif;
+}
+.bread_crumbs .in {
+  padding: 25px 20px;
+}
+.bread_crumbs a, .bread_crumbs span {
+  margin: 0 5px;
+  color: #015293;
+  display: inline-block;
+  vertical-align: top;
+}
+.bread_crumbs .arr {
+  color: #fdca00;
+  background: url(images/arr_right_y.png) center center no-repeat;
+  text-indent: -1000px;
+  overflow: hidden;
+  height: 17px;
+  width: 24px;
+}
+
+@media screen and (max-width: 999px) {
+  #certificates {
+    float: none;
+    width: auto;
+    border-right: 0;
+    border-bottom: 1px solid #f4f4f4;
+  }
+}
+/* end content styles */
 /* start contacts styles */
 #index #contacts {
   background: #0b1736 url(images/contacts_bg.jpg) center no-repeat;

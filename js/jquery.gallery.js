@@ -102,15 +102,15 @@
 					'-moz-transform'	: 'translateX(-350px) translateZ(-200px) rotateY(0deg)',
 					'-o-transform'		: 'translateX(-350px) translateZ(-200px) rotateY(0deg)',
 					'-ms-transform'		: 'translateX(-350px) translateZ(-200px) rotateY(0deg)',
-					'transform'			: 'translateX(-35%) translateZ(-200px) rotateY(0deg)'
+					'transform'			: 'translateX(-350px) translateZ(-200px) rotateY(0deg)'
 				};
 				
 				rightCSS	= {
 					'-webkit-transform'	: 'translateX(350px) translateZ(-200px) rotateY(0deg)',
 					'-moz-transform'	: 'translateX(350px) translateZ(-200px) rotateY(0deg)',
 					'-o-transform'		: 'translateX(350px) translateZ(-200px) rotateY(0deg)',
-					'-ms-transform'		: 'translateX(350px) translateZ(-200px) rotateY(-00deg)',
-					'transform'			: 'translateX(35%) translateZ(-200px) rotateY(0deg)'
+					'-ms-transform'		: 'translateX(350px) translateZ(-200px) rotateY(0deg)',
+					'transform'			: 'translateX(350px) translateZ(-200px) rotateY(0deg)'
 				};
 				
 				leftCSS.opacity		= 1;
@@ -126,7 +126,7 @@
 					'-moz-transform'	: 'translate(-350px) scale(0.8)',
 					'-o-transform'		: 'translate(-350px) scale(0.8)',
 					'-ms-transform'		: 'translate(-350px) scale(0.8)',
-					'transform'			: 'translate(-35%) scale(0.8)'
+					'transform'			: 'translate(-350px) scale(0.8)'
 				};
 				
 				rightCSS	= {
@@ -134,7 +134,7 @@
 					'-moz-transform'	: 'translate(350px) scale(0.8)',
 					'-o-transform'		: 'translate(350px) scale(0.8)',
 					'-ms-transform'		: 'translate(350px) scale(0.8)',
-					'transform'			: 'translate(35%) scale(0.8)'
+					'transform'			: 'translate(350px) scale(0.8)'
 				};
 				
 				currentCSS	= {

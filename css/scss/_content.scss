@@ -1,19 +1,37 @@
-/* start certificates styles */
+/* start content styles */
 
-#certificates {
-    float: left;
-    width: 50%;
-    border-right: 1px solid #f4f4f4;
-    background: #fff url(images/certificates_bg.png) left center no-repeat;
-    background-size: auto 100%;
-    overflow: hidden;
+.bread_crumbs {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 130%;
+    font-family: $font_family_dp;
     
     .in {
-	max-width: 1380px;
-	padding: 55px 20px;
-	text-align: center;
-	
+	padding: 25px 20px;
     }
+    
+    a, span {
+	margin: 0 5px;
+	color: #015293;
+	display: inline-block;
+	vertical-align: top;
+    }
+    
+    .arr {
+	color: $color_a;
+	background: url(images/arr_right_y.png) center center no-repeat;
+	text-indent: -1000px;
+	overflow: hidden;
+	height: 17px;
+	width: 24px;
+    }
+}
+
+#inner {
+
+
     
 }
 
@@ -56,4 +74,4 @@
    
 }
 
-/* end certificates styles */
+/* end content styles */

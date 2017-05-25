@@ -218,6 +218,14 @@
     
 }
 
+#inner {
+    #header {
+	background: #27437b url(images/header_bg.jpg) center no-repeat;
+        background-size: cover;
+	position: relative;
+    }
+}
+
 @media screen and (max-width: 1600px) {
     #header {
 	
@@ -259,7 +267,7 @@
 	    width: 60px;
 	    float: right;
 	    position: relative;
-	    height: 50px;
+	    height: 40px;
 	    
 	    .menu_button, .menu_close {
 		width: 40px;
@@ -312,7 +320,7 @@
 	}
 	
 	nav {
-	    margin: 10px -20px 10px 20px;
+	    margin: 10px -20px 1px 20px;
 	    padding: 0;
 	    font-size: 18px;
 	    line-height: 130%;
@@ -367,11 +375,12 @@
 	}
 	
 	nav {
-	    margin: 4px -20px 10px 20px;
+	    margin: 4px -20px 1px 20px;
 	    width: 50px;
 	    height: 50px;
 	    font-size: 15px;
 	    line-height: 130%;
+	    height: 30px;
 	    
 	    .menu_button, .menu_close {
 		width: 30px;
@@ -432,7 +441,7 @@
 	}
 	
 	nav {
-	    margin: 4px -20px 10px 20px;
+	    margin: 4px -20px 1px 20px;
 	    width: 50px;
 	    height: 50px;
 	    font-size: 15px;
