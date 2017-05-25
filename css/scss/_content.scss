@@ -9,7 +9,7 @@
     font-family: $font_family_dp;
     
     .in {
-	padding: 25px 20px;
+	padding: 25px 20px ;
     }
     
     a, span {
@@ -29,8 +29,17 @@
     }
 }
 
-#inner {
+.button_block {
+    text-align: center;
+    padding: 20px 0 50px;
+}
 
+#inner {
+    .content {
+	position: relative;
+	
+	
+    }
 
     
 }

@@ -31,6 +31,7 @@ $(document).ready(function() {
 	// скрываем меню, удаляем классы активности, возвращаем меню на исходную
 	$('.menu_close').on('click', function(){
 		$('.submenu.active').removeClass('show');
+		$('.submenu').removeClass('show');
 		$('.main_menu').css('left', '100%');
 		$(this).removeClass('show');
 		setTimeout(function(){

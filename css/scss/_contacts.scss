@@ -14,10 +14,14 @@
 	    margin-left: -1px;
 	}
     }
+    
+    h1, .h1 {
+	color: $color_h;
+    }
 }
 #contacts {
     background: #0b1736 url(images/contacts_page_bg.jpg) center top no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     padding-top: 105px;
     
     .in {
@@ -25,6 +29,10 @@
 	padding: 95px 20px 0px;
 	color: #fff;
 	position: relative;
+    }
+    
+    h1, .h1 {
+	color: #fff;
     }
     
     .text {

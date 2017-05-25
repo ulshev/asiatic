@@ -45,7 +45,17 @@ body {
     
     //background: url(images/site.jpg) center -188px no-repeat;
 //background-size: auto;
-} 
+}
+
+#wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+#index #wrapper {
+	display: block;
+	
+}
 a {
     text-decoration: underline;
     color: $color_a;
@@ -58,6 +68,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 	font-weight: 700;
 	line-height: 145%;
 	font-family: $font_family_h;
+	color: $color_h;
 }
 
 h1, .h1 {

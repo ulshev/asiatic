@@ -1,5 +1,15 @@
 /* start footer styles */
 
+#pre_foo {
+    display: table-row;
+    height: 100%;
+}
+
+#index {
+    footer {
+        display: block;
+    }
+}
 footer {
     width: 100%;
     bottom: 0;
@@ -7,6 +17,7 @@ footer {
     background: #0b1736 url(images/foo_bg.png) center no-repeat;
     background-size: auto 100%;
     position: relative;
+    display: table-row;
     
     .in { 
         max-width: 1300px;

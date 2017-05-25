@@ -17,6 +17,63 @@
     
 }
 
+#inner {
+    .certificates_wrap {
+        max-width: 1260px;
+	margin: 0 auto;
+	font-size: 0;
+	line-height: 0;
+	padding-bottom: 35px;
+	
+	.certificate {
+	    display: inline-block;
+	    background: #fff;
+	    width: 22%;
+	    box-sizing: border-box;
+	    font-size: 16px;
+	    @include transition(all);
+	    vertical-align: top;
+	    position: relative;
+	    border: 1px solid #cdcdcd;
+	    top: 0;
+	    margin: 0 1.5% 30px;
+	    text-align: center;
+	    
+	    img {
+		max-width: 100%;
+		vertical-align: middle;
+	    }
+	    
+	    &:hover {
+		top: -10px;
+		box-shadow: 23px 23px 21px rgba(0,0,0,0.1);
+		z-index: 2;
+	    }
+            a {
+                position: relative;
+                display: block;
+                
+                &:after {
+                    position: absolute;
+                    content: '';
+                    top:0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    background: url(images/magnifier.png) center no-repeat;
+                    @include transition(all);
+                }
+            }
+            a:hover {
+                &:after {
+                    opacity: 1
+                }
+            }
+	}
+    }
+}
+
 @media screen and (max-width: 1600px) {
     #certificates {
         
@@ -39,6 +96,21 @@
         border-bottom: 1px solid #f4f4f4;
     }
     
+    #inner {
+        .certificates_wrap {
+            
+            .certificate {
+                width: 30.3%;
+                a {
+                    
+                    &:after {
+                        background-size: 60px
+                    }
+                }
+            }
+        }
+    }
+    
 }
 @media screen and (max-width: 800px) {
     #certificates {
@@ -49,6 +121,21 @@
 @media screen and (max-width: 590px) {
     #sertificates {
         
+    }
+    #inner {
+        .certificates_wrap {
+            
+            .certificate {
+                width: 44%;
+                margin: 0 3% 20px;
+                a {
+                    
+                    &:after {
+                        background-size: 60px
+                    }
+                }
+            }
+        }
     }
 }
 
