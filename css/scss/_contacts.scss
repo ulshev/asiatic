@@ -1,0 +1,284 @@
+/* start contacts styles */
+#index #contacts {
+    background: #0b1736 url(images/contacts_bg.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 0;
+    .in {
+	&:before {
+	    content: '';
+	    height: 113px;
+	    border: 1px solid $color_a;
+	    position: absolute;
+	    top: -58px;
+	    left: 50%;
+	    margin-left: -1px;
+	}
+    }
+}
+#contacts {
+    background: #0b1736 url(images/contacts_page_bg.jpg) center top no-repeat;
+    background-size: 100% auto;
+    padding-top: 105px;
+    
+    .in {
+	max-width: 1280px;
+	padding: 95px 20px 0px;
+	color: #fff;
+	position: relative;
+    }
+    
+    .text {
+	text-align: center;
+    }
+    
+    .cont {
+	display: inline-block;
+	vertical-align: top;
+	width: 305px;
+	margin: 0 15px 40px 45px;
+	padding-right: 30px;
+	padding-left: 55px;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: left;
+	border-right: 1px solid rgba(225,225,225,0.2);
+	
+	&:last-child {
+	    border: 0;
+	}
+	
+	h4 {
+	    margin-left: -55px;
+	    padding: 8px 20px 8px 55px;
+	    height: 24px;
+	    margin-bottom: 15px;
+	    border-radius: 25px;
+	    font-size: 20px;
+	    line-height: 130%;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    position: relative;
+	    
+	    &:before {
+		content: ''; 
+		background: $color_a url(images/icon_cont.png) center 8px no-repeat;
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	    }
+	}
+	
+	a {
+	    color: #fff;
+	}
+	a.map_link {
+	    font-weight: 500;
+	    padding-right: 25px;
+	    background: url(images/arr_right.png) right 80% no-repeat;
+	}
+	p {
+	    a {
+		text-decoration: none;
+	    }
+	}
+	
+	&:hover, &.active {
+	    h4 {
+		background-color: $color_a;
+		color: #003e70;
+	    }
+	    
+	    a.map_link {
+		color: $color_a;
+		
+		&:hover {
+		    text-decoration: none;
+		}
+	    }
+	}
+	&.active {
+	    
+	    a.map_link {
+		background-image: url(images/arr_bottom_active.png);
+		text-decoration: none;
+	    }
+	}
+    }
+}
+
+.map {
+    height: 425px;
+    display: none;
+    
+    &.active {
+	display: block;
+    }
+    
+    iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #contacts {
+	padding-top: 85px;
+    }  
+}
+
+@media screen and (max-width: 1300px) {
+    #index #contacts {
+	.in {
+	    padding: 75px 20px;
+	    
+	    &:before {
+		height: 83px;
+		top: -43px;
+	    }
+	}
+    }
+    #contacts {
+	padding-top: 65px;
+	.in {
+	    padding: 75px 20px 0;
+	}
+	.cont {
+	    width: 275px;
+	    margin: 0 15px 30px;
+	    font-size: 16px;
+	    line-height: 150%;
+	}
+    }
+    
+    .map {
+	height: 385px;
+    }
+}
+@media screen and (max-width: 999px) {
+    #index #contacts {
+	.in {
+	    padding: 55px 20px;
+	    &:before {
+		height: 63px;
+		top: -33px;
+	    }
+	}
+    }
+    #contacts {
+	.in {
+	    padding: 55px 20px 0;
+	}
+	.cont {
+	    width: 230px;
+	    margin: 0 5px 40px;
+	    font-size: 14px;
+	    line-height: 150%;
+	    padding-left: 40px;
+	    
+	    h4 {
+		margin-left: -40px;
+		padding: 3px 20px 3px 40px;
+		height: 24px;
+		margin-bottom: 10px;
+		font-size: 18px;
+		line-height: 130%;
+		
+		&:before {
+		    background-position: center 6px;
+		    background-size: auto 20px;
+		    width: 30px;
+		    height: 30px;
+		}
+	    }
+	    p {
+		margin-bottom: 10px;
+	    }
+	}
+    }
+    .map {
+	height: 345px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+//    #contacts {
+	
+//    }
+    .map {
+	height: 305px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #index #contacts {
+	.in {
+	    padding: 35px 20px;
+	    &:before {
+		display: none;
+	    }
+	}
+    }
+    
+    #contacts {
+	.in {
+	    padding: 35px 20px 0;
+	}
+	.cont {
+	    width: 230px;
+	    margin: 0 5px 30px;
+	    font-size: 14px;
+	    line-height: 150%;
+	    padding-left: 40px;
+	    border: 0;
+	    
+	    h4 {
+		margin-left: -40px;
+		padding: 3px 20px 3px 40px;
+		height: 24px;
+		margin-bottom: 10px;
+		font-size: 18px;
+		line-height: 130%;
+		
+		&:before {
+		    background-position: center 6px;
+		    background-size: auto 20px;
+		    width: 30px;
+		    height: 30px;
+		}
+	    }
+	    p {
+		margin-bottom: 10px;
+	    }
+	}
+    }
+    .map {
+	height: 265px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #index #contacts {
+	.in {
+	    padding: 35px 20px 15px;
+	}
+    }
+    #contacts {
+	.in {
+	    padding: 35px 20px 0;
+	}
+	.cont {
+	    width: 250px;
+	}
+    }
+    .map {
+	height: 225px;
+    }
+}
+
+/* end contacts styles */

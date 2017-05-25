@@ -1,0 +1,195 @@
+/* start about styles */
+
+#about {
+    background-color: #fff;
+    z-index: 5;
+    overflow: hidden;
+    
+    .about_container {
+        position: relative;
+        overflow: hidden;
+        font-size: 0;
+    }
+    
+    .about_item {
+        border-top: 1px solid #ececec;
+        border-left: 1px solid #ececec;
+        margin: -1px 0 0 -1px;
+        font-size: 17px;
+        line-height: 145%;
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 25px 4% 5px 20px;
+        
+        .h3 {
+            font-size: 27px;
+            line-height: 145%;
+            color: $color_a;
+        }
+        .photo {
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 15px;
+            
+            img {
+                max-width: 100%;
+            }
+        }
+        
+        .rezult {
+            padding-left: 50px;
+            background: url(images/icon_like.png) left center no-repeat;
+            font-size: 16px;
+            line-height: 135%;
+            
+            .h5 {
+                font-size: 16px;
+                margin-bottom: 5px;
+            }
+        }
+        
+    }
+    .about_item:nth-child(2n) {
+        padding: 25px 20px 5px 4%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #about {
+        .about_item {
+            font-size: 16px;
+            line-height: 145%;
+            
+            .h3 {
+                font-size: 25px;
+                line-height: 145%;
+            }
+            .rezult {
+                font-size: 15px;
+                line-height: 135%;
+                
+                .h5 {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px){
+    #about {
+        .about_item {
+            font-size: 15px;
+            line-height: 145%;
+            padding: 25px 20px 5px 0px;
+            
+            .h3 {
+                font-size: 23px;
+                line-height: 145%;
+            }
+            
+            .rezult {
+                font-size: 14px;
+                line-height: 135%;
+                
+                .h5 {
+                    font-size: 14px;
+                }
+            }
+        }
+        .about_item:nth-child(2n) {
+            padding: 25px 0 5px 20px;
+        }
+    }
+    
+}
+@media screen and (max-width: 999px) {
+    #about {
+        .about_item {
+            font-size: 14px;
+            line-height: 145%;
+            
+            .h3 {
+                font-size: 21px;
+                line-height: 145%;
+            }
+            
+            .rezult {
+                font-size: 13px;
+                line-height: 135%;
+                background-size: 30px;
+                padding-left: 40px;
+                
+                .h5 {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+//@media screen and (max-width: 800px) {
+//}
+
+@media screen and (max-width: 590px) {
+    #about {
+        .in {
+            padding: 20px;
+        }
+        .about_container {
+            margin: 0 -21px;
+            padding: 0 1px;
+        }
+        .about_item {
+            font-size: 15px;
+            line-height: 145%;
+            width: auto;
+            padding: 5px 0px 5px;
+            border: 0;
+            
+            .h3 {
+                font-size: 21px;
+                line-height: 145%;
+            }
+            
+            .rezult {
+                font-size: 14px;
+                line-height: 135%;
+                background-size: 30px;
+                padding-left: 40px;
+                
+                .h5 {
+                    font-size: 14px;
+                }
+            }
+        }
+        .about_item:nth-child(2n) {
+            padding: 25px 0px 5px;
+        }
+        
+        .slick-list {
+            margin: 0 55px;
+        }
+        
+        .slick-slider .slick-arrow {
+            top: 200px;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+   #about {
+        
+        .slick-list {
+            margin: 0 50px;
+        }
+        
+        .slick-slider .slick-arrow {
+            top: 200px;
+        }
+    }
+}
+
+/* end about styles */

@@ -1,0 +1,178 @@
+/* start advantages tree styles */
+
+#advantages {
+    background-color: #fff;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 50px;
+    
+    .in {
+	max-width: 1380px;
+	padding: 55px 20px 0;
+	text-align: center;
+	
+    }
+    
+    .h1 {
+	padding-bottom: 0;
+    }
+    
+    .advantages_wrap {
+	font-size: 0px;
+	background: #fff url(images/advantages_bg.png) center no-repeat;
+	background-size: 100%;
+    }
+    .advantage {
+	font-size: 14px;
+        font-weight: 300;
+	line-height: 145%;
+        display: inline-block;
+	vertical-align: top;
+        height: 341px;
+	padding: 25px;
+	width: 430/1380*100%;
+        margin: 13px 13/1380*100%;
+        position: relative;
+	box-sizing: border-box;
+	
+	.icon {
+	    margin-bottom: 25px;
+	    
+	    img {
+		max-width: 100%;
+	    }
+	}
+	
+	h6 {
+	    min-height: 55px;
+	    font-weight: 500;
+	    text-transform: uppercase;
+	    margin-bottom: 25px;
+	}
+	
+	p {
+	    max-height: 85px;
+	    overflow: hidden;
+	}
+	
+	&:nth-child(2n) {
+	    background-color: #f9f8f8;
+	}
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #advantages {
+	.advantage {
+	    height: 301px;
+	    padding: 20px 25px;
+	    
+	    .icon {
+		margin-bottom: 20px;
+	    }
+	    
+	    h6 {
+		margin-bottom: 20px;
+	    }
+	}
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #advantages {
+	.in {
+	    padding: 45px 20px 0;
+	}
+	
+	.advantage {
+	    height: 281px;
+	    padding: 20px 25px;
+	    margin: 10px 13/1380*100%;
+	    
+	    .icon {
+		margin-bottom: 15px;
+	    }
+	    
+	    h6 {
+		margin-bottom: 15px;
+	    }
+	}
+    }
+
+}
+@media screen and (max-width: 999px) {
+    #advantages {
+	.in {
+	    padding: 35px 20px 0;
+	}
+	
+	.advantage {
+	    height: 251px;
+	    padding: 15px 10px;
+	    margin: 7px 13/1380*100%;
+	    
+	    .icon {
+		margin-bottom: 10px;
+	    }
+	    
+	    h6 {
+		margin-bottom: 5px;
+		font-size: 14px
+	    }
+	}
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #advantages {
+	.advantages_wrap {
+	    background: none;
+	}
+	
+	.advantage {
+	    padding: 15px 20px;
+	    margin: 7px 13/1380*100%;
+	    width: 664/1380*100%;
+	    
+	    &:nth-child(2n) {
+		background-color: #fff;
+	    }
+	    &:nth-child(1), &:nth-child(4), &:nth-child(5) {
+		background-color: #f9f8f8;
+	    }
+	}
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #advantages {
+	.advantage {
+	    padding: 15px 20px;
+	    margin: 7px 13/1380*100%;
+	    width: 664/1380*100%;
+	}
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #advantages {
+	.advantage {
+	    padding: 15px 20px;
+	    margin: 7px 0;
+	    width: 100%;
+	    
+	    h6 {
+		min-height: inherit;
+		margin-bottom: 15px;
+	    }
+	    
+	    &:nth-child(1), &:nth-child(4), &:nth-child(5) {
+		background-color: #fff;
+	    }
+	    &:nth-child(2n) {
+		background-color: #f9f8f8;
+	    }
+	}
+    }
+}
+
+/* end advantages tree styles */

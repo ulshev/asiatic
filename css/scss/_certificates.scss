@@ -1,0 +1,58 @@
+/* start certificates styles */
+
+#certificates {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #f4f4f4;
+    background: #fff url(images/certificates_bg.png) left center no-repeat;
+    background-size: auto 100%;
+    
+    .in {
+	max-width: 1380px;
+	padding: 55px 20px;
+	text-align: center;
+	
+    }
+    
+}
+
+@media screen and (max-width: 1600px) {
+    #certificates {
+        
+        
+    }
+}
+
+@media screen and (max-width: 1300px){
+    #certificates {
+        
+        
+    }
+    
+}
+@media screen and (max-width: 999px) {
+    #certificates {
+        float: none;
+        width: auto;
+        border-right: 0;
+        border-bottom: 1px solid #f4f4f4;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    #certificates {
+        
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #sertificates {
+        
+    }
+}
+
+@media screen and (max-width: 450px) {
+   
+}
+
+/* end certificates styles */

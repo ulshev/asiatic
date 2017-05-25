@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru-RU">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	
+	<!--[if lt IE 9]><script src="js/html5.js" type="text/javascript"></script><![endif]-->
+	
+	<script type="Text/Javascript" src="js/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="js/jquery.gallery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script> 
+	
+	<title>Азиатский торговый дом</title>
+	<link rel="stylesheet" type="text/css"  media="all" href="css/jquery.fancybox.css" />
+	<link rel="stylesheet" type="text/css"media="all" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css"  media="all" href="css/font.css" />
+	<link rel="stylesheet" type="text/css"  media="all" href="css/style_galery.css" />
+	<link rel="stylesheet" type="text/css"  media="all" href="template_styles.css" />
+</head>
+<body id="index"> <!-- Важно!!! на главной странице добавлять в тег body id="index", а во всех остальных его убирать -->
+
+	<!-- шапка -->
+	<header id="header">
+	    <div class="in">
+		
+		<div id="headr_cont">
+			<a class="tel" href="tel:+78005008607">8 (800) 500-86-07</a><br>
+			<a class="order_call" href="#">Заказать звонок</a>
+		</div>
+		<nav>
+			<div class="main_menu_wrap">
+			    <ul class="main_menu">
+				<li>
+					<a href="#" title="Главная страница">Главная</a>
+				</li>
+				<li>
+					<a href="about.html" title="О компании">О компании</a>
+				</li>
+				<li class="active">
+					<a href="services.html" title="Услуги">Услуги</a>
+					<ul>
+						<li><a href="services-text.html" title="Комплексные поставки ">Комплексные поставки </a></li>
+						<li><a href="services-text.html" title="Поиск поставщиков в Китае">Поиск поставщиков в Китае</a></li>
+						<li class="active"><a href="services-text.html" title="Рассчеты с поставщиками">Рассчеты с поставщиками</a></li>
+						<li><a href="services-text.html" title="Таможенное оформление грузов">Таможенное оформление грузов</a></li>
+						<li><a href="services-text.html" title="Доставка грузов">Доставка грузов</a></li>
+						<li><a href="services-text.html" title="Услуги представителя в Китае">Услуги представителя в Китае</a></li>
+					</ul>
+				</li>            
+				<li>
+					<a href="certificates.html" title="Сертификаты">Сертификаты</a>
+				</li>
+				<li>
+					<a href="partners.html" title="Партнеры">Партнеры</a>
+				</li>
+				<li>
+					<a href="contacts.html" title="Контакты">Контакты</a>
+				</li>
+			     </ul>
+			</div>
+			<span class="menu_button"></span>
+			<span class="menu_close"></span>
+		</nav>
+		
+		<div class="head_search">
+			<form>
+				<input type="text" value="" placeholder="Поиск по сайту" >
+				<input class="submit" type="submit" value="Поиск">
+			</form>
+		</div>
+		
+		<div id="logo">
+			<img src="images/logo.png" alt="Азиатский торговый дом" />
+		</div>
+	    </div>
+	</header>
+	<!-- end шапка -->
+	
+	
+	<div class="main_section" id="main_screen">
+		<div id="background_video">
+			<video class="bg_video" loop="loop" autoplay="autoplay" preload="auto" muted="">
+				<source src="video/video_bg_main.mp4" type="video/mp4">
+				<p>Ваш браузер не поддерживает воспроизведение видео.</p>
+			</video>
+		</div>
+		
+		<div class="in">
+			<div class="text">
+				<div class="h">Поставки <br>из Китая</div>
+				<p>и Юго-восточной Азии</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Услуги -->
+	<div class="main_section" id="services">
+		<div class="in">
+		    <div class="h1">Услуги</div>
+		    <div class="services_wrap">
+			<div class="service">
+			    <a href="#">
+				<div class="img" style="background-image: url('images/foto1.jpg')"></div>
+				<div class="h2">Комплексные поставки</div>
+				<span>Подробнее</span>
+			    </a>
+			</div>
+			<div class="service">
+			    <a href="#">
+				<div class="img" style="background-image: url('images/foto2.jpg')"></div>
+				<div class="h2">Поиск поставщиков в Китае</div>
+				<span>Подробнее</span>
+			    </a>
+			</div>
+			<div class="service">
+			    <a href="#">
+				<div class="img" style="background-image: url('images/foto3.jpg')"></div>
+				<div class="h2">Услуги представителя в Китае</div>
+				<span>Подробнее</span>
+			    </a>
+			</div>
+			<div class="service">
+			    <a href="#">
+				<div class="img" style="background-image: url('images/foto4.jpg')"></div>
+				<div class="h2">Рассчеты с поставщиками</div>
+				<span>Подробнее</span>
+			    </a>
+			</div>
+			<div class="service">
+			    <a href="#">
+				<div class="img" style="background-image: url('images/foto5.jpg')"></div>
+				<div class="h2">Таможенное оформление грузов</div>
+				<span>Подробнее</span>
+			    </a>
+			</div>
+			<div class="service">
+			    <a href="#">
+				<div class="img" style="background-image: url('images/foto6.jpg')"></div>
+				<div class="h2">Доставка грузов</div>
+				<span>Подробнее</span>
+			    </a>
+			</div>
+		    </div>
+			
+		</div>
+	</div>
+	
+	<!-- Преимущества -->
+	<div class="main_section" id="advantages">
+		<div class="in">
+			<div class="h1">Преимущества</div>
+			<div class="advantages_wrap">
+				<div class="advantage">
+					<div class="icon"><img src="images/advantages_icon1.png" alt=""></div>
+					<h6>Офис в&nbsp;Китае</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+				</div>
+				<div class="advantage">
+					<div class="icon"><img src="images/advantages_icon2.png" alt=""></div>
+					<h6>Профессионалы <br>в&nbsp;области&nbsp;ВЭД</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+				</div>
+				<div class="advantage">
+					<div class="icon"><img src="images/advantages_icon3.png" alt=""></div>
+					<h6>Собственные склады <br>в Гуанчжоу, Манжурии, Иву</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+				</div>
+				<div class="advantage">
+					<div class="icon"><img src="images/advantages_icon4.png" alt=""></div>
+					<h6>Комплексное <br>обслуживание</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+				</div>
+				<div class="advantage">
+					<div class="icon"><img src="images/advantages_icon5.png" alt=""></div>
+					<h6>Юридическая <br>безопасность</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+				</div>
+				<div class="advantage">
+					<div class="icon"><img src="images/advantages_icon6.png" alt=""></div>
+					<h6>Обработка запроса <br>в максимально короткий срок</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<!-- Сертификаты -->
+	<div class="main_section" id="certificates">
+		<div class="in">
+			<div class="h1">Сертификаты</div>
+			<!--img class="cert" src="images/cert.jpg" alt="" />< Временная картинка-заглушка -->
+			<div class="certificates_wrap dg-container">
+				<div class="dg-wrapper">
+					<a herf="#"><img class="cert" src="images/cert1.png" alt="" /></a>
+					<a herf="#"><img class="cert" src="images/cert2.png" alt="" /></a>
+					<a herf="#"><img class="cert" src="images/cert3.png" alt="" /></a>
+					<a herf="#"><img class="cert" src="images/cert1.png" alt="" /></a>
+					<a herf="#"><img class="cert" src="images/cert2.png" alt="" /></a>
+					<a herf="#"><img class="cert" src="images/cert3.png" alt="" /></a>
+				</div>
+				<nav>	
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav>
+			</div>
+			<div><a class="button" href="#">Все сертификаты</a></div>
+		</div>
+	</div>
+	
+	
+	<!-- Партнеры -->
+	<div class="main_section" id="partners">
+		<div class="in">
+			<div class="h1">Партнеры</div>
+			<div class="partners_wrap">
+				<div class="partner">
+					<img class="partn_logo" src="images/mmk.png" alt="Магнитогоский металлургический комбинат" />
+				</div>
+				<div class="partner">
+					<img class="partn_logo" src="images/sitno.png" alt="Ситно" />
+				</div>
+				<div class="partner">
+					<img class="partn_logo" src="images/rmk.png" alt="Русская медная компания" />
+				</div>
+				<div class="partner">
+					<img class="partn_logo" src="images/rmk.png" alt="Русская медная компания" />
+				</div>
+				<div class="partner">
+					<img class="partn_logo" src="images/mmk.png" alt="Магнитогоский металлургический комбинат" />
+				</div>
+				<div class="partner">
+					<img class="partn_logo" src="images/ugmk.png" alt="УГМК" />
+				</div>
+				<div class="partner">
+					<img class="partn_logo" src="images/mmk.png" alt="Магнитогоский металлургический комбинат" />
+				</div>
+				<div class="partner">
+					<img class="partn_logo" src="images/sitno.png" alt="Ситно" />
+				</div>
+				<div class="partner">
+					<img class="partn_logo" src="images/rmk.png" alt="Русская медная компания" />
+				</div>
+			</div>
+			<div><a class="button" href="#">Все партнеры</a></div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="main_section" id="contacts">
+	     <div class="in">
+		<div class="h1">Контакты</div>
+		<div class="text">
+			<div class="cont">
+				<h4>Москва</h4>
+				<p>
+					метро Тульская,<br>
+					пр. К. Маркса, 115/5<br>
+					Тел. <a href="tel:+73519205478">+7(3519) 20-54-78</a><br>
+				</p>
+				<a class="map_link" href="#">смотреть карту</a>
+			</div>
+			<div class="cont">
+				<h4>Магнитогорск</h4>
+				<p>
+					пр. К. Маркса, 115/5<br>
+					Тел. <a href="tel:+73519205478">+7(3519) 20-54-78</a><br>
+					<br>
+				</p>
+				<a class="map_link" href="#">смотреть карту</a>
+			</div>
+			<div class="cont">
+				<h4>КИТАЙ</h4>
+				<p>
+					China, Liaoning province,<br>
+					Dalian, Zhongshan district,<br>
+					Times square, A building 3408<br>
+				</p>
+				<a class="map_link" href="#">смотреть карту</a>
+			</div>
+			
+		</div>
+	     
+	     </div>
+	</div>
+	
+	<div class="main_section" id="send_application">
+	     <div class="in">
+		<div class="h2">Свяжитесь с нами прямо сейчас!</div>
+		<a class="button" href="#">отправьте заявку</a>
+	     </div>
+	</div>
+	
+	<!-- подвал -->
+	<footer>
+	    <div class="in">
+		<div id="foo_logo">
+			<img src="images/logo_foo.png" alt="Азиатский торговый дом" />
+		</div>
+		<nav class="foo_main_menu">
+			<ul>
+				<li class="active">
+					<a href="#" title="Главная страница">Главная</a>
+				</li>
+				<li>
+					<a href="about.html" title="О компании">О компании</a>
+				</li>
+				<li>
+					<a href="services.html" title="Услуги">Услуги</a>
+				</li>            
+				<li>
+					<a href="certificates.html" title="Сертификаты">Сертификаты</a>
+				</li>
+				<li>
+					<a href="partners.html" title="Партнеры">Партнеры</a>
+				</li>
+				<li>
+					<a href="contacts.html" title="Контакты">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="copy"><span>© 2017</span> Азиатский торговый дом</div>
+		<div id="dev">Разработка сайта Digital web</div>
+		<div id="social">
+		    <!--noindex-->
+			<a rel="nofollow" title="ВКонтакте" href="#"><img src="images/vk.png" alt="VK" /></a>
+			<a rel="nofollow" title="FaceBook" href="#"><img src="images/fb.png" alt="FB" /></a>
+			<a rel="nofollow" title="Tweeter" href="#"><img src="images/tw.png" alt="TW" /></a>
+		    <!--/noindex-->
+		</div>
+	    </div>
+	</footer>
+	<!-- end подвал -->
+	
+
+</body>
+</html>
