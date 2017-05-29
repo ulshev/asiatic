@@ -18,7 +18,8 @@
 	border: 0;
 	height: auto;
 	line-height: 145%;
-	margin-top: -150px
+	margin-top: -150px;
+	margin-left: -300px;
     }
     
     .gUniFormSuccessBg {
@@ -60,6 +61,7 @@
 	padding: 9px 20px;
 	margin-bottom: 30px;
 	min-width: inherit;
+	max-width: none;
 	
 	&:focus {
 	    border-color: #efc005;

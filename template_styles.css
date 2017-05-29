@@ -2106,180 +2106,42 @@ a.button:active {
   margin-top: 1px;
 }
 
-#form1 {
-  z-index: 12;
-}
-
-#form2 {
-  z-index: 7;
-}
-
-#form3 {
-  z-index: 2;
-}
-#form3 input[type="text"] {
-  text-align: left;
-}
-
 @media screen and (max-width: 1600px) {
-  .main_section.form .in {
-    padding: 50px 20px 25px;
-    z-index: 2;
+  .my_form input, .my_form textarea, .my_form select {
+    width: 22%;
+    margin: 0 1.5% 30px;
   }
-  .main_section.form .h2 {
-    font-size: 32px;
-    line-height: 130%;
+  .my_form input.name {
+    width: 47%;
   }
-  .main_section.form p {
-    font-size: 22px;
-    line-height: 145%;
-  }
-  .main_section.form .button_block {
-    padding-top: 10px;
-    padding-bottom: 30px;
-  }
-
-  .form input[type="text"], .form textarea, .form select {
-    margin: 0 10px 30px;
-    width: 337px;
-    height: 42px;
-    font-size: 16px;
-  }
-  .form textarea, .form input.textarea {
-    min-width: 660px;
-    max-width: 660px;
-    min-height: 42px;
-    max-height: 42px;
-  }
-}
-@media screen and (max-width: 1300px) and (min-width: 1000px) {
-  .main_section.form .in {
-    padding: 40px 20px 15px;
-    z-index: 2;
-  }
-  .main_section.form .h2 {
-    font-size: 29px;
-    line-height: 130%;
-  }
-  .main_section.form p {
-    font-size: 20px;
-    line-height: 145%;
-  }
-  .main_section.form .button_block {
-    padding-top: 10px;
-    padding-bottom: 30px;
-  }
-
-  .main_section.form input[type="text"], .main_section.form textarea, .main_section.form select {
-    margin: 0 10px 30px;
-    width: 287px;
-    height: 40px;
-    font-size: 16px;
-  }
-  .main_section.form textarea, .main_section.form input.textarea {
-    min-width: 580px;
-    max-width: 580px;
-    min-height: 40px;
-    max-height: 40px;
-  }
-  .main_section.form input[type="submit"], .main_section.form input[type="reset"] {
-    width: 265px;
-    font-size: 18px;
-    font-weight: 400;
+  .my_form textarea, .my_form input.textarea {
+    min-width: inherit;
+    width: 47%;
   }
 }
 @media screen and (max-width: 999px) {
-  .main_section.form .in {
-    padding: 30px 20px 5px;
-    z-index: 2;
+  .my_form input, .my_form textarea, .my_form select {
+    width: 47%;
   }
-  .main_section.form .h2 {
-    font-size: 29px;
-    line-height: 130%;
+  .my_form input.name {
+    width: 97%;
+    float: none;
   }
-  .main_section.form p {
-    font-size: 20px;
-    line-height: 145%;
-  }
-  .main_section.form .button_block {
-    padding-top: 10px;
-    padding-bottom: 30px;
-  }
-
-  .form form {
-    padding-top: 0px;
-  }
-  .form input[type="text"], .form textarea, .form select {
-    margin: 0 10px 20px;
-    width: 220px;
-    font-size: 16px;
-  }
-  .form textarea, .form input.textarea {
-    min-width: 450px;
-    max-width: 450px;
-  }
-  .form input[type="submit"], .form input[type="reset"] {
-    margin-right: 0;
-    width: 200px;
-    height: 50px;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .form input[type="submit"]:active, .form input[type="reset"]:active {
-    height: 48px;
+  .my_form textarea, .my_form input.textarea {
+    width: 97%;
+    margin-bottom: 50px;
+    max-width: 97%;
   }
 }
 @media screen and (max-width: 590px) {
-  .main_section.form .h2 {
-    font-size: 25px;
-    line-height: 130%;
+  .my_form input, .my_form textarea, .my_form select {
+    width: 97%;
   }
-  .main_section.form p {
-    font-size: 18px;
-    line-height: 145%;
+  .my_form textarea, .my_form input.textarea {
+    margin-bottom: 30px;
   }
-
-  .form input[type="text"], .form textarea, .form select {
-    width: 220px;
-    font-size: 15px;
-  }
-  .form textarea, .form input.textarea {
-    min-width: 350px;
-    max-width: 350px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .main_section.form .h2 {
-    font-size: 22px;
-    line-height: 130%;
-  }
-  .main_section.form p {
-    font-size: 16px;
-    line-height: 145%;
-  }
-
-  .form input[type="text"], .form textarea, .form select {
-    width: 280px;
-  }
-  .form textarea, .form input.textarea {
-    min-width: 280px;
-    max-width: 280px;
-  }
-
-  #form3 input[type="text"] {
-    text-align: center;
-  }
-}
-/* for IE9 */
-@media screen and (min-width: 0\0) {
-  .main_section.form {
-    background-attachment: inherit;
-  }
-}
-/* for IE10 & IE11 */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .main_section.form {
-    background-attachment: inherit;
+  .my_form input[type="submit"], .my_form input[type="reset"] {
+    width: 215px;
   }
 }
 /* end forms styles */
@@ -2636,6 +2498,7 @@ a.button:active {
   height: auto;
   line-height: 145%;
   margin-top: -150px;
+  margin-left: -300px;
 }
 .my_modal_window .gUniFormSuccessBg {
   background: none;
@@ -2671,6 +2534,7 @@ a.button:active {
   padding: 9px 20px;
   margin-bottom: 30px;
   min-width: inherit;
+  max-width: none;
 }
 .my_modal_window.my_form input:focus, .my_modal_window.my_form textarea:focus {
   border-color: #efc005;
