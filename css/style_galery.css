@@ -28,8 +28,8 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: transparent url(../images/browser.png) no-repeat top left;
-	/*box-shadow: 0px 10px 20px rgba(0,0,0,0.3);*/
+	/*background: transparent url(../images/browser.png) no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);*/
 	border: 15px solid transparent;
 }
 .dg-wrapper a.dg-transition{

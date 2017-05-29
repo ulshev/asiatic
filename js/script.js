@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	
 
 
 	$('input,textarea').focus(function(){
@@ -48,6 +47,20 @@ $(document).ready(function() {
 			$(this).parent().siblings().removeClass('show');
 			e.preventDefault();
 		}
+	});
+	
+	
+	$('.service_slider').slick({
+		dots: false,
+		arrows: true,
+		infinite: true,
+		speed: 1500,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		//fade: true,
+		adaptiveHeight: true,
+		prevArrow: '<span class="slick-prev"></span>',
+		nextArrow: '<span class="slick-next"></span>',
 	});
 	
 	

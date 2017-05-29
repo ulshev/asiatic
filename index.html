@@ -17,6 +17,9 @@
 	<link rel="stylesheet" type="text/css"  media="all" href="css/jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css"media="all" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css"  media="all" href="css/font.css" />
+	
+	<link rel="stylesheet" type="text/css"  media="all" href="css/ModalWindow.css" /><!-- !!! Эти стили не подключать! Они взяты отсюда http://212.109.221.119/ -->
+	
 	<link rel="stylesheet" type="text/css"  media="all" href="css/style_galery.css" />
 	<link rel="stylesheet" type="text/css"  media="all" href="template_styles.css" />
 </head>
@@ -29,6 +32,69 @@
 		<div id="headr_cont">
 			<a class="tel" href="tel:+78005008607">8 (800) 500-86-07</a><br>
 			<a class="order_call" href="#">Заказать звонок</a>
+			
+			<div class="my_form my_modal_window gUniFormModalWindow" id="gUniModal_116cec0926ffcbcd4e36265b1ae8919e"><!-- !!! добавить классы .my_form .my_modal_window -->
+				<div class="gUniFormHideScrollBar">
+					<div class="gUniFormCn100">
+						<div class="gUniFormModalWindowContainer">
+							<div class="gUniFormContainer">
+								<div class="uFormHeading">Заказать звонок</div>
+								<form id="" enctype="multipart/form-data" action="/?clear_cache=Y" method="post" class="gUniForm" data-id="5" >
+									<div class="uFormLine">
+										<!--div class="uLabel">
+											<div class="uIcon"><img src="/local/components/dweb/uni.form/templates/modal-window/images/nameIcon.png" alt="Имя"></div>
+											<div class="uName">Имя</div>
+										</div-->
+										<div class="uError uErrorField1"></div>
+										<div class="uField">
+											<input type="text" name="FORM_FIELD_1" placeholder="Ваше имя"><!-- !!! добавить placeholder -->
+										</div>
+									</div>
+									<div class="uFormLine">
+										<!--div class="uLabel">
+											<div class="uIcon"><img src="/local/components/dweb/uni.form/templates/modal-window/images/pnoneIcon.png" alt="Телефон"></div>
+											<div class="uName">Телефон</div>
+											<div class="uRequired">*</div>
+										</div-->
+										<div class="uError uErrorField2"></div>
+										<div class="uField">
+											<input type="text" name="FORM_FIELD_2" data-required="Y" placeholder="Ваш телефон *"><!-- !!! добавить placeholder -->
+										</div>
+									</div>
+									<div class="uFormGlobalErrors"></div>
+									<div class="uformTools">
+										<div class="uFormButton">
+											<a href="#" class="button uFormSubmit"><!-- !!! добавить класс .button -->
+											<!--img src="/local/components/dweb/uni.form/templates/modal-window/images/submitIcon.png" class="uToolsIcon" alt="Заказать"-->перезвоните мне</a>
+										</div>
+										<!--div class="uFormButton">
+											<a href="#" class="uFormReset"><img src="/local/components/dweb/uni.form/templates/modal-window/images/resetIcon.png" class="uToolsIcon" alt="Сбросить">Сбросить</a>
+										</div-->
+									</div>
+									<!--div class="eFormRequired">* - обязательные поля</div-->
+									<!--hidden button for enter submit-->
+									<input type="submit" class="eFormHidden" value="" />
+								</form>
+							</div>
+							<a href="#" class="gUniFormModalWindowExit"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="my_modal_window my_form gUniFormSuccess" id="success_116cec0926ffcbcd4e36265b1ae8919e"><!-- !!! добавить классы .my_form .my_modal_window -->
+				<div class="gUniFormSuccessContainer">
+					<div class="gUniFormSuccessBg">
+						<div class="gUniFormSuccessMiddler">
+							<div class="gUniFormSuccessHeading">Заявка отправлена</div>
+							<div class="gUniFormSuccessText">Ваше сообщение успешно отправлено. В ближайшее время с Вами свяжется наш менеджер</div>
+							<div class="gUniFormButtonContainter">
+								<a href="#" class="button gUniFormSuccessButton gUniFormExit">Закрыть окно</a><!-- !!! добавить класс .button -->
+							</div>
+							<a href="#" class="gUniFormSuccessExit gUniFormExit"></a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<nav>
 			<div class="main_menu_wrap">
@@ -292,6 +358,89 @@
 	     <div class="in">
 		<div class="h2">Свяжитесь с нами прямо сейчас!</div>
 		<a class="button" href="#">отправьте заявку</a>
+		
+		<div style="display: block;" class="my_form my_modal_window gUniFormModalWindow" id="gUniModal_68fc63685280651863fcd1aae505428f"><!-- !!! добавить классы .my_form .my_modal_window -->
+			<div class="gUniFormHideScrollBar">
+				<div class="gUniFormCn100">
+					<div class="gUniFormModalWindowContainer">
+						<div class="gUniFormContainer">
+							<div class="uFormHeading">Отправьте заявку</div>
+							<form id="68fc63685280651863fcd1aae505428f" enctype="multipart/form-data" action="/?clear_cache=Y" method="post" class="gUniForm" data-id="6" data-unique="68fc63685280651863fcd1aae505428f">
+								<div class="uFormLine">
+									<!--div class="uLabel">
+										<div class="uIcon"><img src="/local/components/dweb/uni.form/templates/modal-window/images/nameIcon.png" alt="Имя"></div>
+										<div class="uName">Имя</div>
+									</div-->
+									<div class="uError uErrorField3"></div>
+									<div class="uField">
+										<input type="text" name="FORM_FIELD_3" placeholder="Ваше имя"><!-- !!! добавить placeholder -->
+									
+									</div>
+								</div>
+								<div class="uFormLine">
+									<!--div class="uLabel">
+										<div class="uIcon"><img src="/local/components/dweb/uni.form/templates/modal-window/images/pnoneIcon.png" alt="Телефон"></div>
+										<div class="uName">Телефон</div>
+										
+									</div-->
+									<div class="uError uErrorField4"></div>
+									<div class="uField">
+										<input type="text" name="FORM_FIELD_4" placeholder="Ваш телефон"><!-- !!! добавить placeholder -->
+									</div>
+								</div>
+								<div class="uFormLine">
+									<!--div class="uLabel">
+										<div class="uIcon"><img src="/local/components/dweb/uni.form/templates/modal-window/images/mailIcon.png" alt="Почта"></div>
+										<div class="uName">Почта</div>
+										<div class="uRequired">*</div>
+									</div-->
+									<div class="uError uErrorField5"></div>
+									<div class="uField">
+										<input type="text" name="FORM_FIELD_5" data-required="Y" data-mail="Y" placeholder="Ваш email"><!-- !!! добавить placeholder -->
+									</div>
+								</div>
+								<div class="uFormLine">
+									<!--div class="uLabel">
+										<div class="uIcon"><img src="/local/components/dweb/uni.form/templates/modal-window/images/messageIcon.png" alt="Заявка"></div>
+										<div class="uName">Заявка</div>
+										<div class="uRequired">*</div>
+									</div-->
+									<div class="uError uErrorField6"></div>
+									<div class="uField"><textarea rows="10" cols="45" name="FORM_FIELD_6" data-required="Y" placeholder="Ваша заявка"></textarea></div><!-- !!! добавить placeholder -->
+								</div>
+								<div class="uFormGlobalErrors"></div>
+								<div class="uformTools">
+									<div class="uFormButton">
+										<a href="#" class="uFormSubmit"><!--img src="/local/components/dweb/uni.form/templates/modal-window/images/submitIcon.png" class="uToolsIcon" alt="Отправить"-->Отправить</a>
+									</div>
+									<!--div class="uFormButton">
+										<a href="#" class="uFormReset"><img src="/local/components/dweb/uni.form/templates/modal-window/images/resetIcon.png" class="uToolsIcon" alt="Сбросить">Сбросить</a>
+									</div-->
+								</div>
+								<!--div class="eFormRequired">* - обязательные поля</div-->
+								<!--hidden button for enter submit-->
+								<input type="submit" class="eFormHidden" value="" />
+							</form>
+						</div>
+						<a href="#" class="gUniFormModalWindowExit"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="display: block;" class="my_form my_modal_window gUniFormSuccess" id="success_68fc63685280651863fcd1aae505428f"><!-- !!! добавить классы .my_form .my_modal_window -->
+			<div class="gUniFormSuccessContainer">
+				<div class="gUniFormSuccessBg">
+					<div class="gUniFormSuccessMiddler">
+						<div class="gUniFormSuccessHeading">Заявка отправлена</div>
+						<div class="gUniFormSuccessText">Ваше сообщение успешно отправлено. В ближайшее время с Вами свяжется наш менеджер</div>
+						<div class="gUniFormButtonContainter">
+							<a href="#" class="button gUniFormSuccessButton gUniFormExit">Закрыть окно</a><!-- !!! добавить класс .button -->
+						</div>
+						<a href="#" class="gUniFormSuccessExit gUniFormExit"></a>
+					</div>
+				</div>
+			</div>
+		</div>
 	     </div>
 	</div>
 	

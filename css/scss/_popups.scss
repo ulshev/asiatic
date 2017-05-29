@@ -1,0 +1,191 @@
+/* start modal window styles */
+
+.my_modal_window {
+    max-width: none;
+    .gUniFormModalWindowContainer, .gUniFormSuccessContainer {
+	background: #0b1736 url(images/popup_bg.jpg) center no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	border-radius: 0;
+	width: 820px;
+	
+	padding: 70px 50px 55px;
+    }
+    
+    .gUniFormSuccessContainer {
+	width: 500px;
+	border: 0;
+	height: auto;
+	line-height: 145%;
+	margin-top: -150px
+    }
+    
+    .gUniFormSuccessBg {
+	background: none;
+	border-radius: 0;
+    }
+    
+    .gUniFormModalWindowExit, .gUniFormSuccessExit {
+	width: 50px;
+	height: 50px;
+	top:20px;
+	right: 20px;
+	background: url(images/close.png) left top no-repeat;
+	background-size: 100% auto;
+	
+	&:hover {
+	    background-position: left bottom;
+	}
+    }
+    
+    &.gUniFormModalWindow .uFormHeading, .gUniFormSuccessHeading {
+	font-family: $font_family_h;
+	font-size: 36px;
+	line-height: 145%;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+    }
+    
+    .gUniFormSuccessText {
+	font-size: 16px;
+	line-height: 180%;
+	margin-bottom: 40px;
+    }
+    
+    &.my_form input, &.my_form textarea{
+	width: 536px;
+	float: none;
+	padding: 9px 20px;
+	margin-bottom: 30px;
+	min-width: inherit;
+	
+	&:focus {
+	    border-color: #efc005;
+	    background: rgba(0, 62, 112, 0.3);
+	}
+    }
+    
+    .gUniForm .uFormButton {
+	float: none;
+	width: auto;
+    }
+    
+    .button, .gUniForm .uFormSubmit, .gUniForm .uFormReset {
+	    width: 315px;
+	    height: 53px;
+	    font-size: 16px;
+	    font-weight: 500;
+	    background-color: #fdca00;
+	    border-radius: 26px;
+	    @include transition(background-color);
+	    border-color: #fdca00;
+	    text-transform: uppercase;
+	    line-height: 34px;
+	    color: #003e70;
+	    padding-top: 12px;
+	    margin-top: 0;
+	    text-decoration: none;
+    }
+    .button:hover, .gUniForm .uFormSubmit:hover, .gUniForm .uFormReset:hover {
+	    //box-shadow: inset 0 0 2px RGBA(0, 0, 0, 0.5);
+	    background-color: #ddb000;
+	    border-color: #ddb000;
+    }
+    .button:active, .gUniForm .uFormSubmit:active, .gUniForm .uFormReset:active {
+	    height: 51px;
+	    margin-bottom: 1px;
+	    margin-top: 1px;
+    }
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 1300px){
+    .my_modal_window {
+	.gUniFormModalWindowContainer {
+	    width: 80%;
+	    padding: 70px 30px 55px;
+	}
+	.gUniFormSuccessContainer {
+	    padding: 70px 30px 55px;
+	}
+    }
+    
+}
+@media screen and (max-width: 999px) {
+    
+    
+}
+@media screen and (max-width: 800px) {
+    .my_modal_window {
+	.gUniFormModalWindowContainer {
+	    width: 80%;
+	    padding: 60px 30px 45px;
+	}
+	.gUniFormSuccessContainer {
+	    padding: 60px 30px 45px;
+	    width: 400px;
+	    margin-left: -230px;
+	}
+	
+	.gUniFormModalWindowExit, .gUniFormSuccessExit {
+	    width: 40px;
+	    height: 40px;
+	}
+	&.gUniFormModalWindow .uFormHeading, .gUniFormSuccessHeading  {
+	    font-size: 26px;
+	    margin-bottom: 30px;
+	}
+	.gUniFormSuccessText {
+	    font-size: 15px;
+	    line-height: 180%;
+	    margin-bottom: 20px;
+	}
+	&.my_form input, &.my_form textarea{
+	    width: 90%;
+	    font-size: 16px;
+	}
+	.button, .gUniForm .uFormSubmit, .gUniForm .uFormReset {
+	    width: 215px;
+	}
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .my_modal_window {
+	.gUniFormModalWindowContainer {
+	    padding: 50px 30px 35px;
+	}
+	.gUniFormSuccessContainer {
+	    padding: 50px 30px 35px;
+	    width: 300px;
+	    margin-left: -180px;
+	}
+	.gUniFormModalWindowExit, .gUniFormSuccessExit {
+	    width: 30px;
+	    height: 30px;
+	}
+    }
+}
+
+@media screen and (max-width: 450px) {
+   .my_modal_window {
+	.gUniFormSuccessContainer {
+	    padding: 50px 30px 35px;
+	    width: 280px;
+	    margin-left: -170px;
+	}
+    }
+    
+    #send_application .my_modal_window .button {
+	padding-top: 7px;
+    }
+}
+
+/* end modal window styles */

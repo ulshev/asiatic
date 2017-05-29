@@ -38,7 +38,7 @@ $max-width: 1560px;
 body {   
     font-family: $font_family_os;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 180%;;
     font-weight: 100;
     color: $color_text;
     background: #fff;
@@ -54,6 +54,10 @@ body {
 }
 #index #wrapper {
 	display: block;
+	
+}
+#inner #wrapper {
+	overflow: hidden;
 	
 }
 a {
@@ -99,6 +103,10 @@ h6, .h6 {
     h1, .h1 {
 	font-size: 38px;
 	margin-bottom: 20px; 
+    }
+    
+    h2, .h2 {
+	font-size: 27px;
     }
 }
 
@@ -165,15 +173,15 @@ a.button:active {
 		position: absolute;
 		top: 50%;
 		margin-top: -25px;
-		width: 46px;
-		height: 46px;
+		width: 40px;
+		height: 40px;
 		text-indent: 10000px;
 		overflow: hidden;
 		z-index: 5;
 		outline: none;
-		background: transparent center no-repeat;
+		background: #fff center no-repeat;
 		cursor: pointer;
-		border: 2px solid $color_a;
+		border: 0;
 		border-radius: 25px;
 		@include transition(background-color);
 		
@@ -183,20 +191,20 @@ a.button:active {
 	}
 	.slick-prev {
 		left: 9px;
-		background-image: url(images/arr_left.png);
+		background-image: url(images/arr_left2.png);
 		&:hover {
-			background-image:  url(images/arr_left_hover.png);
+			background-image:  url(images/arr_left2_hover.png);
 		}
 	}
 	.slick-next {
-		background-image:  url(images/arr_right.png);
+		background-image:  url(images/arr_right2.png);
 		right: 9px;
 		&:hover {
-			background-image:  url(images/arr_right_hover.png);
+			background-image:  url(images/arr_right2_hover.png);
 		}
 	}
 	
-	.slick-dots {
+	/*.slick-dots {
 		position: absolute;
 		width: 300px;
 		margin-left: -150px;
@@ -241,7 +249,7 @@ a.button:active {
 				}
 			}
 		}
-	}
+	}*/
 }
 
 .tabs_container {
@@ -250,48 +258,6 @@ a.button:active {
 	margin-right: -3px;
 }
     
-.tab {
-	height: 0;
-	overflow: hidden;
-	opacity: 0;
-}
-.tab.active {
-	opacity: 1;
-	height: auto;
-	overflow: visible;
-}
-
-.tab_buttons {
-	text-align: center;
-	position: relative;
-	
-	span {
-		display: inline-block;
-		margin-top: 4px;
-		padding: 15px 50px 15px;
-		background-color: #333333;
-		color: #fff;
-		cursor: pointer;
-		text-transform: uppercase;
-		
-		&:after {
-			content: '';
-			display: block;
-			border-bottom: 1px dotted transparent;
-			@include transition(border-color);
-		}
-		
-		&.active {
-			background-color: $color_a;
-		}
-			
-		&.active:after, &:hover:after {
-			border-color: #fff;
-		}
-	}
-}
-
-
 
 .in {
 	padding: 10px 20px;
