@@ -1425,10 +1425,10 @@ a.button:active {
   height: 100%;
   opacity: 0;
   background: url(images/magnifier.png) center no-repeat;
-  -webkit-transition: all 0.2s ease-out 0s;
-  -moz-transition: all 0.2s ease-out 0s;
-  -o-transition: all 0.2s ease-out 0s;
-  transition: all 0.2s ease-out 0s;
+  -webkit-transition: all 0.6s ease-out 0s;
+  -moz-transition: all 0.6s ease-out 0s;
+  -o-transition: all 0.6s ease-out 0s;
+  transition: all 0.6s ease-out 0s;
 }
 #inner .certificates_wrap .certificate a:hover:after {
   opacity: 1;

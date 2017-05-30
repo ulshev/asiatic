@@ -62,7 +62,7 @@
                     height: 100%;
                     opacity: 0;
                     background: url(images/magnifier.png) center no-repeat;
-                    @include transition(all);
+                    @include transition_slow(all);
                 }
             }
             a:hover {
