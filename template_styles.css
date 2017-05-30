@@ -1522,6 +1522,7 @@ a.button:active {
   top: 0;
   margin: 0 -1px -1px 0;
   text-align: center;
+  overflow: hidden;
 }
 #inner .partners_wrap .partner img {
   max-width: 70%;
@@ -1543,7 +1544,7 @@ a.button:active {
   }
   #partners .partner {
     height: 110px;
-    line-height: 120px;
+    line-height: 110px;
     margin: 10px 3% 20px;
   }
 }
@@ -1915,8 +1916,12 @@ a.button:active {
   }
 }
 @media screen and (max-width: 800px) {
+  .left_col {
+    display: none;
+  }
+
   .left_col + .text {
-    margin-left: 320px;
+    margin-left: 0px;
   }
 
   .page_404 .in {
@@ -1945,10 +1950,6 @@ a.button:active {
   .img_text_wrap .text {
     padding: 30px 20px 10px;
     font-size: 14px;
-  }
-
-  .left_col {
-    display: none;
   }
 
   .left_col + .text {
@@ -2160,9 +2161,6 @@ a.button:active {
   left: 50%;
   margin-left: -1px;
 }
-#index #contacts h1, #index #contacts .h1 {
-  color: #03325e;
-}
 
 #contacts {
   background: #0b1736 url(images/contacts_page_bg.jpg) center top no-repeat;
@@ -2208,6 +2206,7 @@ a.button:active {
   text-transform: uppercase;
   font-weight: 900;
   position: relative;
+  color: #fff;
 }
 #contacts .cont h4:before {
   content: '';
@@ -2396,6 +2395,7 @@ a.button:active {
 /* start send_application styles */
 #send_application {
   background: #0b1736 url(images/send_application_bg.jpg) center no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 #send_application .in {

@@ -335,8 +335,12 @@
     }
 }
 @media screen and (max-width: 800px) {
+    
+    .left_col {
+	display: none;
+    }
     .left_col + .text{
-	margin-left: 320px;
+	margin-left: 0px;
     }
     .page_404 {
 	.in {
@@ -369,9 +373,6 @@
 	    padding: 30px 20px 10px;
 	    font-size: 14px;
 	}
-    }
-    .left_col {
-	display: none;
     }
     .left_col + .text{
 	margin-left: 0;

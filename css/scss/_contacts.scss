@@ -15,9 +15,7 @@
 	}
     }
     
-    h1, .h1 {
-	color: $color_h;
-    }
+    
 }
 #contacts {
     background: #0b1736 url(images/contacts_page_bg.jpg) center top no-repeat;
@@ -67,6 +65,7 @@
 	    text-transform: uppercase;
 	    font-weight: 900;
 	    position: relative;
+	    color: #fff;
 	    
 	    &:before {
 		content: ''; 
